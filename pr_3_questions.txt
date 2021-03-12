@@ -1,0 +1,7 @@
+5 шаг
+route ospf 1 area 1
+network 2.0.0.0(не посмотрел сеть пока писал в практике) 255.255.255.255 area 1
+rouute bgp 100
+redistribute ospf 1 - для внутренних
+redistribute ospf 1 match external 1 external 2 - для внешних
+
