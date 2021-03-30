@@ -1,0 +1,202 @@
+2.
+a)
+urfu.ru -> 212.193.66.21, 93.88.176.11, 212.193.72.21
+msu.ru -> 93.180.0.1, 212.16.0.1
+б) 
+urfu.ru -> 93.88.179.200
+rbc.ru -> 80.68.253.13, 185.72.229.13
+
+3. a.root-servers.net (198.41.0.4)
+4.
+- com
+com     nameserver = c.gtld-servers.net
+com     nameserver = d.gtld-servers.net
+com     nameserver = e.gtld-servers.net
+com     nameserver = b.gtld-servers.net
+com     nameserver = g.gtld-servers.net
+com     nameserver = m.gtld-servers.net
+com     nameserver = j.gtld-servers.net
+com     nameserver = i.gtld-servers.net
+com     nameserver = f.gtld-servers.net
+com     nameserver = k.gtld-servers.net
+com     nameserver = a.gtld-servers.net
+com     nameserver = h.gtld-servers.net
+com     nameserver = l.gtld-servers.net
+c.gtld-servers.net      internet address = 192.26.92.30
+c.gtld-servers.net      AAAA IPv6 address = 2001:503:83eb::30
+d.gtld-servers.net      internet address = 192.31.80.30
+d.gtld-servers.net      AAAA IPv6 address = 2001:500:856e::30
+e.gtld-servers.net      internet address = 192.12.94.30
+e.gtld-servers.net      AAAA IPv6 address = 2001:502:1ca1::30
+b.gtld-servers.net      internet address = 192.33.14.30
+b.gtld-servers.net      AAAA IPv6 address = 2001:503:231d::2:30
+g.gtld-servers.net      internet address = 192.42.93.30
+g.gtld-servers.net      AAAA IPv6 address = 2001:503:eea3::30
+m.gtld-servers.net      internet address = 192.55.83.30
+m.gtld-servers.net      AAAA IPv6 address = 2001:501:b1f9::30
+
+- org
+org     nameserver = a0.org.afilias-nst.info
+org     nameserver = a2.org.afilias-nst.info
+org     nameserver = b0.org.afilias-nst.org
+org     nameserver = b2.org.afilias-nst.org
+org     nameserver = c0.org.afilias-nst.info
+org     nameserver = d0.org.afilias-nst.org
+a0.org.afilias-nst.info internet address = 199.19.56.1
+a2.org.afilias-nst.info internet address = 199.249.112.1
+b0.org.afilias-nst.org  internet address = 199.19.54.1
+b2.org.afilias-nst.org  internet address = 199.249.120.1
+c0.org.afilias-nst.info internet address = 199.19.53.1
+d0.org.afilias-nst.org  internet address = 199.19.57.1
+a0.org.afilias-nst.info AAAA IPv6 address = 2001:500:e::1
+a2.org.afilias-nst.info AAAA IPv6 address = 2001:500:40::1
+b0.org.afilias-nst.org  AAAA IPv6 address = 2001:500:c::1
+b2.org.afilias-nst.org  AAAA IPv6 address = 2001:500:48::1
+c0.org.afilias-nst.info AAAA IPv6 address = 2001:500:b::1
+d0.org.afilias-nst.org  AAAA IPv6 address = 2001:500:f::1
+
+- ru
+ru      nameserver = a.dns.ripn.net
+ru      nameserver = b.dns.ripn.net
+ru      nameserver = d.dns.ripn.net
+ru      nameserver = e.dns.ripn.net
+ru      nameserver = f.dns.ripn.net
+a.dns.ripn.net  internet address = 193.232.128.6
+b.dns.ripn.net  internet address = 194.85.252.62
+d.dns.ripn.net  internet address = 194.190.124.17
+e.dns.ripn.net  internet address = 193.232.142.17
+f.dns.ripn.net  internet address = 193.232.156.17
+a.dns.ripn.net  AAAA IPv6 address = 2001:678:17:0:193:232:128:6
+b.dns.ripn.net  AAAA IPv6 address = 2001:678:16:0:194:85:252:62
+d.dns.ripn.net  AAAA IPv6 address = 2001:678:18:0:194:190:124:17
+e.dns.ripn.net  AAAA IPv6 address = 2001:678:15:0:193:232:142:17
+f.dns.ripn.net  AAAA IPv6 address = 2001:678:14:0:193:232:156:17
+
+6.
+
+-cs.usu.edu.ru
+ru.
+	RU      nameserver = e.dns.ripn.net
+	RU      nameserver = a.dns.ripn.net
+	RU      nameserver = f.dns.ripn.net
+	RU      nameserver = d.dns.ripn.net
+	RU      nameserver = b.dns.ripn.net
+	a.dns.RIPN.net  internet address = 193.232.128.6
+	b.dns.RIPN.net  internet address = 194.85.252.62
+	d.dns.RIPN.net  internet address = 194.190.124.17
+	e.dns.RIPN.net  internet address = 193.232.142.17
+	f.dns.RIPN.net  internet address = 193.232.156.17
+edu.ru.
+	edu.ru  nameserver = ns2.free.net
+	edu.ru  nameserver = ns2.informika.ru
+	edu.ru  nameserver = ns.informika.ru
+	edu.ru  nameserver = ns.msu.ru
+	edu.ru  nameserver = ns.runnet.ru
+	ns.msu.ru       internet address = 93.180.0.1
+usu.edu.ru.
+	ns.urgu.org     internet address = 212.193.68.254
+	ns.usaaa.ru     internet address = 79.172.6.193
+cs.usu.edu.ru.
+	Address: 212.193.68.254
+
+
+-www.imm.uran.ru
+ru.
+	RU      nameserver = e.dns.ripn.net
+	RU      nameserver = a.dns.ripn.net
+	RU      nameserver = f.dns.ripn.net
+	RU      nameserver = d.dns.ripn.net
+	RU      nameserver = b.dns.ripn.net
+	a.dns.RIPN.net  internet address = 193.232.128.6
+	b.dns.RIPN.net  internet address = 194.85.252.62
+	d.dns.RIPN.net  internet address = 194.190.124.17
+	e.dns.RIPN.net  internet address = 193.232.142.17
+	f.dns.RIPN.net  internet address = 193.232.156.17
+uran.ru.
+	uran.ru nameserver = ns.uran.ru
+	uran.ru nameserver = ns2.uran.ru
+	ns.uran.ru      internet address = 195.19.137.69
+	ns2.uran.ru     internet address = 195.19.144.69
+imm.uran.ru.
+	imm.uran.ru     nameserver = ns.uran.ru
+	imm.uran.ru     nameserver = ns2.uran.ru
+	ns.uran.ru      internet address = 195.19.137.69
+	ns2.uran.ru     internet address = 195.19.144.69
+www.imm.uran.ru
+	Address: 195.19.137.125
+
+-kma.imkn.urfu.ru
+ru.
+	RU      nameserver = e.dns.ripn.net
+	RU      nameserver = a.dns.ripn.net
+	RU      nameserver = f.dns.ripn.net
+	RU      nameserver = d.dns.ripn.net
+	RU      nameserver = b.dns.ripn.net
+	a.dns.RIPN.net  internet address = 193.232.128.6
+	b.dns.RIPN.net  internet address = 194.85.252.62
+	d.dns.RIPN.net  internet address = 194.190.124.17
+	e.dns.RIPN.net  internet address = 193.232.142.17
+	f.dns.RIPN.net  internet address = 193.232.156.17
+urfu.ru.
+	urfu.ru nameserver = ns3.urfu.ru
+	urfu.ru nameserver = ns1.urfu.ru
+	urfu.ru nameserver = ns2.urfu.ru
+	ns1.urfu.ru     internet address = 212.193.66.21
+	ns2.urfu.ru     internet address = 93.88.176.11
+	ns3.urfu.ru     internet address = 212.193.72.21
+imkn.urfu.ru
+	Address:  93.88.177.150
+	
+7. edu.ru.txt остальное отклонено
+8. 
+ya.ru
+        primary name server = ns1.yandex.ru
+        responsible mail addr = sysadmin.yandex.ru
+        serial  = 2021032900
+        refresh = 900 (15 mins)
+        retry   = 600 (10 mins)
+        expire  = 2592000 (30 days)
+        default TTL = 900 (15 mins)
+
+ya.ru   nameserver = ns2.yandex.ru
+ya.ru   nameserver = ns1.yandex.ru
+
+urfu.ru
+        primary name server = ns1.urfu.ru
+        responsible mail addr = hostmaster.urfu.ru
+        serial  = 2012092593
+        refresh = 3600 (1 hour)
+        retry   = 1800 (30 mins)
+        expire  = 2419200 (28 days)
+        default TTL = 3600 (1 hour)
+
+urfu.ru nameserver = ns3.urfu.ru
+urfu.ru nameserver = ns2.urfu.ru
+urfu.ru nameserver = ns1.urfu.ru
+ns1.urfu.ru     internet address = 212.193.66.21
+ns2.urfu.ru     internet address = 93.88.176.11
+ns3.urfu.ru     internet address = 212.193.72.21
+
+mail.ru
+        primary name server = ns1.mail.ru
+        responsible mail addr = hostmaster.mail.ru
+        serial  = 3408253530
+        refresh = 900 (15 mins)
+        retry   = 900 (15 mins)
+        expire  = 604800 (7 days)
+        default TTL = 60 (1 min)
+
+mail.ru nameserver = ns1.mail.ru
+mail.ru nameserver = ns3.mail.ru
+mail.ru nameserver = ns2.mail.ru
+ns1.mail.ru     internet address = 217.69.139.112
+ns1.mail.ru     AAAA IPv6 address = 2a00:1148:db00::2
+ns2.mail.ru     internet address = 94.100.180.138
+ns2.mail.ru     AAAA IPv6 address = 2a00:1148:db00::1
+ns3.mail.ru     internet address = 185.30.176.202
+ns3.mail.ru     AAAA IPv6 address = 2a00:1148:db00::2
+
+9. 
+https://www.iana.org/domains/root/db
+https://www.nic.ru/help/obshee-500/
+590 рублей
