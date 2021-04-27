@@ -1,0 +1,13 @@
+$TTL 86400 
+@ SOA ns.ru. root.ru. (
+ 1; Serial
+ 4021928; Refresh
+ 86400; Retry
+ 14400; Expire
+ 2592000) ; Negative Cache TTL
+			NS	ns.ru.
+@				A	10.97.16.237; there will be http server ru.
+ns.ru.			A   10.97.16.237
+www				A	10.97.16.237; TODO rewrite to CNAME resource note
+yandex.ru.		NS	ns.yandex.ru.
+ns.yandex.ru.	A	10.97.18.84
