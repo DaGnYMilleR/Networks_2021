@@ -1,10 +1,16 @@
 # SNTPServer
-##run:
-###Server
+
+## run
+
+### Server
+
     python server.py [offset(seconds) | default = 20000]
-###Client
+
+### Client
+
     python client.py localhost
-    
-###Usage
+
+### Usage
+
 ![server](server.PNG)
 ![client](client.PNG)
