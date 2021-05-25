@@ -1,0 +1,11 @@
+{
+    "host_addr": "smtp.yandex.ru",
+    "port": 465,
+    "user_name": "",
+    "user_address": "",
+    "password": "",
+    "targets": ["samoshckinartem@ya.ru"],
+    "subject": "simple subject",
+    "attachments": ["./attachments/123.jpg", "./attachments/AUSLÄNDER - Rammstein.mp3"],
+    "message_file": "./attachments/msg.txt"
+}

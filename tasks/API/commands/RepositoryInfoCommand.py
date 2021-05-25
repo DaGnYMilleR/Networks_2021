@@ -1,4 +1,4 @@
-from RequestHandler import RequestHandler
+from API.RequestHandler import RequestHandler
 import json
 
 
@@ -10,7 +10,7 @@ class RepositoryInfoCommand:
         answer = RequestHandler().send_request_and_get_result(self.create_get_request(args[0], args[1]))
         b = json.loads(answer[answer.find("{")::])
         if "message" in b.keys():
-            print("jopa")
+            print(f"error: {b['message']}")
             return
         print(f"name: {b['name']}")
         print(f"owner: {b['owner']['login']}")
