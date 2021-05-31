@@ -27,7 +27,7 @@ class RepositoryInfoCommand:
 GET /repos/{owner}/{repo} HTTP/1.1\r
 Host: api.github.com\r
 Connection: Keep-Alive\r
-user-agent: 'python'\r
+user-agent: 'DaGnYMilleR'\r
 owner: "{owner}"\r
 repo: "{repo}"\r
 """
