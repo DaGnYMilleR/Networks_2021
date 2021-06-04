@@ -5,4 +5,4 @@ class Text:
         self.content = ""
         self.content += f"Content-Transfer-Encoding: 8bit\n"
         self.content += f"Content-Type: text/plain; charset=utf-8\n\n"
-        self.content += message
+        self.content += message.replace("\n.", "\n..")

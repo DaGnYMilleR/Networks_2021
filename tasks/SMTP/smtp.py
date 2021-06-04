@@ -1,11 +1,11 @@
 import base64
 import socket
 import ssl
-from content import Content
-from text import Text
-from config import Config
-from attachment import Attachment
-import utils
+from SMTP.content import Content
+from SMTP.text import Text
+from SMTP.config import Config
+from SMTP.attachment import Attachment
+import SMTP.utils as utils
 
 
 def request(socket, request):

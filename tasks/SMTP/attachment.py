@@ -1,6 +1,6 @@
 import os
 import mimetypes
-import utils
+import SMTP.utils as utils
 
 
 class Attachment:
